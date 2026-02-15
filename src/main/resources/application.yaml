@@ -3,7 +3,7 @@ spring:
     name: eboutique
   datasource:
     username: root
-    password: passer123
+    password: 
     url: jdbc:mysql://localhost:3306/e_boutique
   jpa:
     hibernate:
