@@ -9,9 +9,7 @@ import sn.edu.isepat.eboutique.repositories.CategorieRepository;
 @Component
 @Order(1)
 public class InitCategorie implements CommandLineRunner {
-    
     private final CategorieRepository categorieRepository;
-
     public InitCategorie(CategorieRepository categorieRepository) {
         this.categorieRepository = categorieRepository;
     }
